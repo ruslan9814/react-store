@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler", // <--- ВАЖНО
+    "baseUrl": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "types": ["vite/client"]
+  },
+  "include": ["src"]
+}
