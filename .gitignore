@@ -1,3 +1,4 @@
+ 
 logs
 *.log
 npm-debug.log*
@@ -95,6 +96,7 @@ dist-ssr
 # Gatsby files
 .cache/
 # Comment in the public line if your project uses Gatsby and not Next.js
+ 
 # public
 
 # vuepress build output

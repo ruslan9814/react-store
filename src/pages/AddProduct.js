@@ -1,5 +1,4 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-// src/components/AddProduct.tsx
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { productService } from '../services/api';
