@@ -8,8 +8,22 @@ import DeleteProduct from './pages/DeleteProduct';
 import './App.css';
 
 function App() {
-  return <h1>App Loaded</h1>;
-}
+  return (
+    <Router>
+ 
+<Routes>
+  <Route path="/" element={<ProductList />} />
+  <Route path="/product" element={<ProductList />} />
+  <Route path="/add-product" element={<AddProduct />} />
+  <Route path="/product/:id" element={<ProductDetailPage />} />  {/* детали */}
+  <Route path="/edit-product/:id" element={<EditProduct />} />   {/* редактирование */}
+  <Route path="/delete-product/:id" element={<DeleteProduct />} /> {/* удаление */}
+</Routes>
 
+
+ 
+    </Router>
+  );
+}
 
 export default App;
